@@ -1,0 +1,26 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Field Selector plugin for Craft CMS 3.x
+ *
+ * FieldSelector Field Input
+ *
+ * @author    Kurious Agency
+ * @copyright Copyright (c) 2019 Kurious Agency
+ * @link      https://kurious.agency
+ * @package   FieldSelector
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.checkboxSelectField({
+        instructions: "Choose Fields for Comparison",
+        options: options,
+        values:value,
+        showAllOption: field.showAll,
+        name:name,
+        id:name,
+        errors:field.errors
+    }) }}

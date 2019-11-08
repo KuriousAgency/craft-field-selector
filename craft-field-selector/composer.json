@@ -1,0 +1,38 @@
+{
+    "name": "kuriousagency/craft-field-selector",
+    "description": "Select fields from an element on the element ",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "element field selector"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Kurious Agency",
+        "homepage": "https://kurious.agency"
+    }],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+            "kuriousagency\\elementfieldselector\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Field Selector",
+        "handle": "field-selector",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "kuriousagency\\fieldselector\\FieldSelector"
+    }
+}

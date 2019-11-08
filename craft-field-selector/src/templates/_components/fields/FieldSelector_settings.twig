@@ -1,0 +1,23 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Field Selector plugin for Craft CMS
+ *
+ * FieldSelector Field Settings
+ *
+ * @author    Kurious Agency
+ * @copyright Copyright (c) 2019 Kurious Agency
+ * @link      https://kurious.agency
+ * @package   FieldSelector
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.checkboxField({
+    label: 'Include a select all option',
+    id: 'showAll',
+    name: 'showAll',
+    value: field['showAll']})
+}}
