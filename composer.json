@@ -2,7 +2,6 @@
     "name": "kuriousagency/craft-field-selector",
     "description": "Select fields from an element on the element ",
     "type": "craft-plugin",
-    "version": "1.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -11,8 +10,8 @@
         "element field selector"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/KuriousAgency/craft-field-selector",
+        "issues": "https://github.com/KuriousAgency/craft-field-selector/issues"
     },
     "license": "MIT",
     "authors": [{
