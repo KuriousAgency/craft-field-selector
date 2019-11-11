@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kuriousagency\\elementfieldselector\\": "src/"
+            "kuriousagency\\fieldselector\\": "src/"
         }
     },
     "extra": {
@@ -31,7 +31,6 @@
         "handle": "field-selector",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "???",
         "class": "kuriousagency\\fieldselector\\FieldSelector"
     }
 }
