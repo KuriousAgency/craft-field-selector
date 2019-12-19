@@ -108,7 +108,7 @@ class FieldSelectorField extends Field
     public function getInputHtml($value, ElementInterface $element = null): string
     {
         // Register our asset bundle
-        Craft::$app->getView()->registerAssetBundle(ElementFieldSelectorFieldAsset::class);
+        Craft::$app->getView()->registerAssetBundle(FieldSelectorFieldAsset::class);
         // Get our id and namespace
         $id = Craft::$app->getView()->formatInputId($this->handle);
         $namespacedId = Craft::$app->getView()->namespaceInputId($id);

@@ -77,7 +77,7 @@ class FieldSelector extends Plugin
 
         Craft::info(
             Craft::t(
-                'element-field-selector',
+                'field-selector',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),
